@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub/testimonials-section-using-css-grid-KTFfqyXJo)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-section-using-css-grid-E0FglxWyM)
 - Live Site URL: [GitHub Pages](https://valeriamontoya.github.io/testimonials-grid-section/)
 
 ## My process
