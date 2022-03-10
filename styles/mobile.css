@@ -1,0 +1,128 @@
+:root {
+  --primary-violet: hsl(263, 55%, 52%);
+  --primary-grayish-blue: hsl(217, 19%, 35%);
+  --primary-blackish-blue: hsl(219, 29%, 14%);
+  --primary-white: hsl(0, 0%, 100%);
+  --neutral-gray: hsl(0, 0%, 81%);
+  --neutral-grayish-blue: hsl(210, 46%, 95%);
+
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  --font-size-medium: 1.3rem;
+  --font-size-large: 1.89rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  display: grid;
+  place-items: center;
+  padding: 6rem 3rem 0;
+  background: var(--neutral-grayish-blue);
+}
+
+.card {
+  padding: 26px 32px 30px;
+  border-radius: 8px;
+  margin-block-end: 24px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.mini-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-block-end: 14px;
+  font-size: 1.2rem;
+}
+
+.card__img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.card__title {
+  font-size: var(--font-size-large);
+  margin-block-end: 16px;
+  color: var(--primary-white);
+}
+
+.card__paragraph {
+  color: hsla(0, 0%, 100%, 50%);
+  line-height: 1.6rem;
+}
+
+.card-1 {
+  background: var(--primary-violet) url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 20px;
+  color: var(--primary-white);
+}
+
+.card-1 .card__img {
+  border: 1px solid hsla(0, 0%, 100%, 20%);
+}
+
+.card-2 {
+  background: var(--primary-grayish-blue);
+  color: hsla(0, 0%, 100%, 50%);
+  font-size: 1.2rem;
+}
+
+.card-2 .name {
+  color: var(--primary-white);
+}
+
+.card-3,
+.card-5 {
+  background: var(--primary-white);
+  color: var(--primary-blackish-blue);
+}
+
+.card-3 .card__paragraph,
+.card-3 .card__title,
+.card-5 .card__paragraph,
+.card-5 .card__title {
+  color: var(--primary-grayish-blue);
+}
+
+.card-4 {
+  background: var(--primary-blackish-blue);
+  font-size: 1.25rem;
+}
+
+.card-4 .name {
+  color: var(--primary-white);
+}
+
+.card-4 .card__img {
+  border: 2px solid var(--primary-violet);
+}
+
+.card-5 {
+  font-size: 1.25rem;
+}
+
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
